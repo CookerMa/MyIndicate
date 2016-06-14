@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\ASProject\MyIndicate\demo_zhy_20_mms_miui_02\src\main\assets"/><source path="D:\ASProject\MyIndicate\demo_zhy_20_mms_miui_02\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\ASProject\MyIndicate\demo_zhy_20_mms_miui_02\src\debug\assets"/></dataSet></merger>

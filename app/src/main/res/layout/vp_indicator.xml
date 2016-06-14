@@ -11,70 +11,7 @@
         android:layout_height="45dp"
         android:background="#000000"
         android:orientation="horizontal"
-        test:item_count="4" >
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="短信1"
-            android:textColor="#CCFFFFFF"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="收藏2"
-            android:textColor="#CCFFFFFF"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="推荐3"
-            android:textColor="#CCFFFFFF"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="推荐4"
-            android:textColor="#CCFFFFFF"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="推荐5"
-            android:textColor="#CCFFFFFF"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="推荐6"
-            android:textColor="#CCFFFFFF"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="推荐7"
-            android:textColor="#CCFFFFFF"
-            android:textSize="16sp" />
+        test:item_count="3" >
     </com.example.administrator.myindicate.TabIndicatorDemo>
 
     <android.support.v4.view.ViewPager

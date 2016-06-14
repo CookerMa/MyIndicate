@@ -18,7 +18,6 @@ public class MainActivity extends FragmentActivity
     private ViewPager mViewPager;
     private List<String> mDatas = Arrays.asList("a", "b", "c", "d",
             "e", "f", "g", "h", "i");
-
     private TabIndicatorDemo mIndicator;
 
     @Override

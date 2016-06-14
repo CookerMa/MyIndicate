@@ -68,7 +68,7 @@ public class TabIndicatorDemo extends LinearLayout
     /**
      * 默认的Tab数量
      */
-    private static final int COUNT_DEFAULT_TAB = 4;
+    private static final int COUNT_DEFAULT_TAB = 3;
     /**
      * tab数量
      */
@@ -125,8 +125,6 @@ public class TabIndicatorDemo extends LinearLayout
     {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
         mTop = getMeasuredHeight();
-
-
         setMeasuredDimension(getMeasuredWidth(), mTop+mHeight);
 
     }
@@ -379,19 +377,22 @@ public class TabIndicatorDemo extends LinearLayout
         int tabWidth = getScreenWidth() / mTabVisibleCount;
 
         // 容器滚动，当移动到倒数最后一个的时候，开始滚动
-        if (offset > 0 && position >= (mTabVisibleCount - 2)
+        if (offset > 0 && position >= (mTabVisibleCount - 1)
                 && getChildCount() > mTabVisibleCount)
         {
             if (mTabVisibleCount != 1)
             {
-                this.scrollTo((position - (mTabVisibleCount - 2)) * tabWidth
+//                this.scrollTo((position - (mTabVisibleCount - 1)) * tabWidth
+                //                        + (int) (tabWidth * offset), 0);
+                this.scrollTo((position - (mTabVisibleCount - 1)) * tabWidth
                         + (int) (tabWidth * offset), 0);
             } else
             // 为count为1时 的特殊处理
             {
-                this.scrollTo(
-                        position * tabWidth + (int) (tabWidth * offset), 0);
+                this.scrollTo(position * tabWidth + (int) (tabWidth * offset), 0);
             }
+        }else{
+
         }
 
         invalidate();
