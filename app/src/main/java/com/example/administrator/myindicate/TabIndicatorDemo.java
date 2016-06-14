@@ -382,17 +382,14 @@ public class TabIndicatorDemo extends LinearLayout
         {
             if (mTabVisibleCount != 1)
             {
-//                this.scrollTo((position - (mTabVisibleCount - 1)) * tabWidth
+                //                this.scrollTo((position - (mTabVisibleCount - 1)) * tabWidth
                 //                        + (int) (tabWidth * offset), 0);
-                this.scrollTo((position - (mTabVisibleCount - 1)) * tabWidth
-                        + (int) (tabWidth * offset), 0);
+                this.scrollTo((position - (mTabVisibleCount - 1)) * tabWidth + (int) (tabWidth * offset), 0);
             } else
             // 为count为1时 的特殊处理
             {
                 this.scrollTo(position * tabWidth + (int) (tabWidth * offset), 0);
             }
-        }else{
-
         }
 
         invalidate();
